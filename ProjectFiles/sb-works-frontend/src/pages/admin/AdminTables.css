@@ -1,0 +1,143 @@
+/* ===== Common Container ===== */
+.admin-page {
+  padding: 20px;
+}
+
+.admin-page h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* ===== USERS TABLE ===== */
+.admin-table-wrapper {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow-x: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.admin-table thead {
+  background: #1f2937;
+  color: white;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 14px 16px;
+  text-align: left;
+}
+
+.admin-table th {
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.admin-table tbody tr {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.admin-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.admin-table td {
+  font-size: 14px;
+  color: #374151;
+}
+
+/* ===== ROLE BADGES ===== */
+.role-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.role-admin {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.role-client {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.role-freelancer {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* ===== APPLICATION CARDS ===== */
+.applications-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.application-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+.application-card:hover {
+  transform: translateY(-4px);
+}
+
+.application-card p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #374151;
+}
+
+.application-card strong {
+  color: #111827;
+}
+
+/* ===== STATUS BADGES ===== */
+.status {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-approved {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-rejected {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .admin-page {
+    padding: 12px;
+  }
+
+  .admin-page h3 {
+    font-size: 18px;
+  }
+}

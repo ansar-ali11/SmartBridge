@@ -1,0 +1,21 @@
+.status.pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.status.accepted {
+  color: green;
+  font-weight: bold;
+}
+
+.status.rejected {
+  color: red;
+  font-weight: bold;
+}
+
+.card {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
